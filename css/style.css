@@ -394,6 +394,16 @@ hr {
     border: 4px solid #FF8B38;
     border-radius: 50%;
     color: #FF8B38;
+    cursor: pointer;
+    -webkit-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -o-transition: background .3s ease-in-out, color .3s ease-in-out;
+    transition: background .3s ease-in-out, color .3s ease-in-out;
+}
+
+.our-process .features .feat .icon:hover {
+    background: #FF8B38;
+    color: #FFF;
 }
 
 .our-process .features .feat h3 {

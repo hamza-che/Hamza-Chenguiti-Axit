@@ -230,7 +230,7 @@ hr {
 
 @media (max-width: 767px) {
     .social-media .social-icons i {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -296,7 +296,8 @@ hr {
 
 @media (max-width: 767px) {
     .tabs-section .tabs ul {
-        width: 80%;
+        margin-top: 40px;
+        width: 90%;
     }
     .tabs-section .tabs ul li {
         height: 130px !important;
@@ -306,7 +307,7 @@ hr {
         font-size: 20px;
     }
     .tabs-section .tabs-content .btn {
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -349,7 +350,7 @@ hr {
         text-align: center;margin-left: 0;
     }
     .sub-list .sub-list-img img {
-        width: 78%;
+        width: 90%;
         text-align: center;
     }
 }
@@ -388,7 +389,7 @@ hr {
 
 @media (max-width: 767px) {
     .standard-pic .standard-img img {
-        width: 78%;
+        width: 90%;
         text-align: center;
     }
 }

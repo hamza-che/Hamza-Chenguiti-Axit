@@ -110,8 +110,7 @@ hr {
 .header .header-info .btn {
     background: transparent;
     border: 3px solid #FFF;
-    padding: 10px 15px;
-    width: 30%;
+    padding: 10px 10%;
     font-size: 20px;
     -webkit-transition-property: background, border, color;
     -moz-transition-property: background, border, color;
@@ -170,6 +169,12 @@ hr {
     border-bottom-right-radius: 10px;
 }
 
+@media (max-width: 767px) {
+    .header .header-form {
+        width: 100%;
+    }
+}
+
 @media (max-width: 991px) {
     .header {
         text-align: center;
@@ -222,6 +227,12 @@ hr {
 .social-media .social-icons .fa-stumbleupon:hover {color: #eb4924;}
 
 .social-media .social-icons .fa-rss:hover {color: #f26522;}
+
+@media (max-width: 767px) {
+    .social-media .social-icons i {
+        font-size: 4rem;
+    }
+}
 
 @media (max-width: 991px) {
     .social-media {
@@ -276,7 +287,7 @@ hr {
 .tabs-section .tabs-content .tab-content span {display: block;}
 
 .tabs-section .tabs-content .tab-content .btn {
-    padding: 15px 40px;
+    padding: 15px 10%;
     margin-top: 15px;
     color: #FFF;
 }
@@ -285,7 +296,7 @@ hr {
 
 @media (max-width: 767px) {
     .tabs-section .tabs ul {
-        width: 70%;
+        width: 80%;
     }
     .tabs-section .tabs ul li {
         height: 130px !important;
@@ -333,6 +344,16 @@ hr {
 
 .sub-list .sub-list-content .media p {line-height: 1.7;}
 
+@media (max-width: 767px) {
+    .sub-list .sub-list-img {
+        text-align: center;margin-left: 0;
+    }
+    .sub-list .sub-list-img img {
+        width: 78%;
+        text-align: center;
+    }
+}
+
 @media (max-width: 991px) {
     .sub-list .sub-list-content {
         text-align: center;
@@ -364,6 +385,13 @@ hr {
 .standard-pic p {margin-bottom: 30px;line-height: 1.7;}
 
 .standard-pic span {display: block;line-height: 1.7;}
+
+@media (max-width: 767px) {
+    .standard-pic .standard-img img {
+        width: 78%;
+        text-align: center;
+    }
+}
 
 @media (max-width: 991px) {
     .standard-pic {
@@ -667,6 +695,12 @@ hr {
     font-size: 16px;
     text-transform: capitalize;
     color: #999;
+}
+
+@media (max-width: 767px) {
+    .footer ul li i {
+        font-size: 2rem;
+    }
 }
 
 /* End Footer Section */
